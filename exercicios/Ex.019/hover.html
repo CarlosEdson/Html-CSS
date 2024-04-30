@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: red;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: black;
+            color: rgb(243, 8, 8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo Hover</h1>
+    <p>Passe o Curso sobre o Texto</p>
+    <div>
+        PASSE AQUI
+        <p>TEM SE ESFORÇADO MUITO?</p>
+    </div>
+</body>
+</html>

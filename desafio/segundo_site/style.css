@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+header{
+    margin: auto;
+    background-color: black;
+    padding: 60px;
+    text-align: center;
+}
+header h1{
+    color: white;
+}
+header p{
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 3em;
+}
+div{
+    padding: 80px 0px;
+    margin: auto;
+}
+main p{
+    font-weight: bolder;
+    height: auto;
+    width: 500px;
+    text-align: left;
+    padding: 20px;
+}
+.segundo_paragrafo{
+    background-image: url(imagens/joaninha.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

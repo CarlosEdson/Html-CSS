@@ -1,0 +1,93 @@
+@charset "UTF-08";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+header img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    padding: 15px 0px 0px 80px;
+    display: block;
+    max-width: 1000px;
+}
+header h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 10px;
+}
+header p{
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+}
+nav{
+    background-color: white;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+nav a:hover{
+    color: red;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+main aside{
+    background-color: #E6E8EA;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0px 10px;
+}
+main aside >h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+aside > h2{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+main aside p{
+    text-align: justify;
+    text-indent: 30px; /*espaçamento para inicio de texto*/
+    line-height: 2em; /*espaçamento entre linhas*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 10px;
+}
+img{
+    width: 100%;
+    padding: 20px 0px;
+    display: block;
+}
+footer{
+    background-color: red;
+    padding: 5px;
+    margin-top: 10px;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

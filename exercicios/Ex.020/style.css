@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: blueviolet;
+}
+main{
+    background-color: aqua;
+}
+footer{
+    background-color: brown;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+a{
+    color: white;
+    font-weight: bolder;
+}
+nav{
+    display: block;
+}
+a:hover{
+    color: red;
+}
+.artigo1{
+    display: none;
+}
+.artigo2{
+    display: none;
+}
