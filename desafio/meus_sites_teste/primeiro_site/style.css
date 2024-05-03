@@ -25,9 +25,18 @@ header nav > a{
     text-decoration: none;
     color: white;
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
 }
-a:hover{
+header a:hover{
     background-color: black;
     border-radius: 10px;
+}
+menu > nav{
+    background-color: black;
+    padding: 10px;
+}
+menu > nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
 }
