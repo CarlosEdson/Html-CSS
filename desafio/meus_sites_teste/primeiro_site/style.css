@@ -58,3 +58,11 @@ menu > nav > a{
 .Bugatti:hover{
     color: black;
 }
+main{
+    height: 400px;
+    width: 100vw;
+    background-image: url(imagens/paisagem.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: auto;
+}
