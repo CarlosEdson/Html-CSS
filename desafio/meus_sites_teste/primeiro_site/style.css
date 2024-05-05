@@ -8,8 +8,14 @@ header{
     padding: 20px;
     position: relative;
 }
+header > img{
+    position: absolute;
+    height: 4em;
+    left: 150px;
+}
 header > h1{
     margin-left: 200px;
+    background-color: red;
 }
 header > p{
     margin-left: 210px;
@@ -59,10 +65,11 @@ menu > nav > a{
     color: black;
 }
 main{
-    height: 400px;
-    width: 100vw;
+    height: 500px;
+    width: 100%;
     background-image: url(imagens/paisagem.jpeg);
-    background-position: center;
     background-repeat: no-repeat;
-   background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
 }
