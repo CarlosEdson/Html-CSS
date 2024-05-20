@@ -6,6 +6,32 @@
     <title>Formulario</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <p>
+            <label for="iestado">Selecione seu Estado:</label> <br>
+            <select name="estado" id="iestado">
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="CE">Ceara</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label> <br>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option>Administrador</option>
+                <option>Programador</option>
+                <option>Professor</option>
+                <option>Jogador</option>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
