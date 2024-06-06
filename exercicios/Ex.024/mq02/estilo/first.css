@@ -27,9 +27,10 @@ main{
     padding: 10px;
 }
 img{
-    display: none;
     margin: auto;
 }
-#celular{
-    display: block;
-}
+#celular{display: block;}
+#tablet{display: none;}
+#impressora{display: none;}
+#pc{display: none;}
+#tv{display: none;}
