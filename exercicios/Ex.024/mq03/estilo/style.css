@@ -40,7 +40,8 @@ menu a{
     text-align: center;
     text-decoration: none;
     background-color: rgba(128, 128, 128, 0.034);
-    border-top: 2px solid black;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 menu a:hover{
     background-color: rgba(73, 73, 73, 0.658);

@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivel</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
-<body>
+<body onresize="mudoutamanho">
     <header>
         <h1>Site Responsivel</h1>
         <i id="iconemenu" class="ph-bold ph-article" onclick="clickmenu()"></i>
@@ -32,6 +33,14 @@
         </article>
     </main>
     <script>
+        function mudoutamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'bolck'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+
         function clickmenu(){
             if(itens.style.display == 'block'){
                 itens.style.display ='none';
