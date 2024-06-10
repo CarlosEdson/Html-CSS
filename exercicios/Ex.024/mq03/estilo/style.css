@@ -22,8 +22,13 @@ header > h1{
     text-align: center;
     padding: 10px;
 }
+#iconemenu:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 menu{
-    display: block;
+    display: none;
 }
 menu > ul{
     list-style-type: none;
